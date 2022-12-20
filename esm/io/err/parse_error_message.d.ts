@@ -10,8 +10,8 @@
  * WARNING: This should NOT be used to detect if a variable is an error. It will be very slow.
  * Only use this to parse the message string from some object/response which you know contains an error message.
  *
- * @param response - response from HTTP request or Error object
+ * @param response - response from HTTP request or JS Error object
  *
  * @returns {string} - nice readable text - to render in an alert popup in your front-end user interface
  */
-export default function parse_error_message(response: Record<string, any> | string): string;
+export default function parse_error_message(response: any): string;
