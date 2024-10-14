@@ -43,7 +43,6 @@
   },
   "homepage": "https://github.com/twodashes/node#readme",
   "dependencies": {
-    "@ps/constants": "*",
     "axios": "^0.27.2",
     "cachios": "^4.0.0",
     "http-server": "^14.1.1"
@@ -51,7 +50,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7.18.6",
     "@janniks/typedoc-theme-stacks": "^1.2.3",
-    "@ps/cconsole": "*",
+    "@ps/cconsole": "https://github.com/paulshorey/cconsole.git",
     "@types/jest": "^29.2.3",
     "airtable": "^0.11.5",
     "ava": "^4.3.3",
